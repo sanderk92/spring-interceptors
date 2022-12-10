@@ -1,0 +1,3 @@
+feature:
+  rest-template-log-all: true
+  authenticate: true
