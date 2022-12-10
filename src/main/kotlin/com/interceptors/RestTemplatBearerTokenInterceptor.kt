@@ -9,7 +9,7 @@ import org.springframework.http.client.ClientHttpResponse
 import org.springframework.stereotype.Service
 
 @Service
-class RestTemplateAuthInterceptor(
+class RestTemplatBearerTokenInterceptor(
     @Value("\${feature.authenticate:false}")
     private val enabled: Boolean,
 ) : ClientHttpRequestInterceptor {
